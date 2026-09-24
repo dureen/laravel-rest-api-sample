@@ -1,24 +1,37 @@
-# Laravel 9.x REST API - Sample 
+# Laravel REST API Sample
 
-## What is this?
+Laravel 9.x REST API example with Product resource.
 
-This is Laravel 9.x REST API project
+> **Recommended GitHub repo name:** `laravel-rest-api`
 
-### Routes
-| Method      | End Point                | Description                                     |
-| ----------- | ------------------------ | ----------------------------------------------- |
-| `GET|HEAD`  | api/v1/product           | product.index › Api\ProductController@index     |
-| `POST`      | api/v1/product           | product.store › Api\ProductController@store     |
-| `GET|HEAD`  | api/v1/product/{product} | product.show › Api\ProductController@show       |
-| `PUT|PATCH` | api/v1/product/{product} | product.update › Api\ProductController@update   |
-| `DELETE`    | api/v1/product/{product} | product.destroy › Api\ProductController@destroy |
+> **Important:** Laravel 9 reached end-of-life. For new projects use Laravel 11 or 12.
 
-## Installation, updates, and more setup
+## API Endpoints
 
-Please read the original Laravel 9.x [README](README-Origin.md)
+| Method      | Endpoint                 | Description          |
+|-------------|--------------------------|----------------------|
+| GET         | `/api/v1/product`        | List products        |
+| POST        | `/api/v1/product`        | Create product       |
+| GET         | `/api/v1/product/{id}`   | Show product         |
+| PUT/PATCH   | `/api/v1/product/{id}`   | Update product       |
+| DELETE      | `/api/v1/product/{id}`   | Delete product       |
 
-## Happy Coding!
+## Requirements
 
-### Support
-Buy me a coffee [Click here](https://ko-fi.com/sandw)
+- PHP 8.0.2+
+- Composer
+- Laravel 9.x
 
+## Installation
+
+```bash
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve
+```
+
+## License
+
+MIT
