@@ -1,8 +1,8 @@
 {
-    "name": "dureen/laravel-rest-api",
+    "name": "dureen/laravel-rest-api-sample",
     "type": "project",
-    "description": "Laravel 9 REST API sample project",
-    "keywords": ["laravel", "api", "rest"],
+    "description": "Archived Laravel 9 REST API sample (EOL)",
+    "keywords": ["laravel", "api", "rest", "archived"],
     "license": "MIT",
     "require": {
         "php": "^8.0.2",

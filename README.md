@@ -1,10 +1,14 @@
 # Laravel REST API Sample
 
-Laravel 9.x REST API example with Product resource.
+> **Status: Archived** – Laravel 9 sample from 2022.
 
-> **Recommended GitHub repo name:** `laravel-rest-api`
+Laravel 9.x REST API example with a Product resource using `apiResource`.
 
-> **Important:** Laravel 9 reached end-of-life. For new projects use Laravel 11 or 12.
+## Important Notes
+
+- **Laravel 9 reached End-of-Life.**  
+  Do **not** use this project for new development.
+- For new projects, start with **Laravel 11** or **Laravel 12**.
 
 ## API Endpoints
 
@@ -16,13 +20,13 @@ Laravel 9.x REST API example with Product resource.
 | PUT/PATCH   | `/api/v1/product/{id}`   | Update product       |
 | DELETE      | `/api/v1/product/{id}`   | Delete product       |
 
-## Requirements
+## Requirements (historical)
 
 - PHP 8.0.2+
 - Composer
 - Laravel 9.x
 
-## Installation
+## How to Run (for reference only)
 
 ```bash
 composer install
